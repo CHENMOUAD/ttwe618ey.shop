@@ -12,8 +12,8 @@
   });
 
   function gtagok(url) {
-	  gtag_report_conversion();
-     window.open('https://www.googlalab.com/V548E2', '_blank');
+	  gtag_report_conversion('https://www.googlalab.com/V548E2');
+   //  window.open('https://www.googlalab.com/V548E2', '_blank');
   }
   document.addEventListener('DOMContentLoaded', function () {
     const privacyModal = document.getElementById('privacyPolicyModal');
